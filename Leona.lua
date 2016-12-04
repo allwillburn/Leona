@@ -67,7 +67,7 @@ OnTick(function (myHero)
                        	
              end
              if LeonaMenu.Harass.E:Value() and Ready(_E) and ValidTarget(target, 850) then
-				                          CastSkillShot(_E, target)
+				        CastSkillShot(_E, target)
              end
           end
 	--COMBO
