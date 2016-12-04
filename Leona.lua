@@ -137,12 +137,12 @@ OnTick(function (myHero)
         --URFMode
         if LeonaMenu.URFMode.Q:Value() then        
           if Ready(_Q) and ValidTarget(target, 800) then
-		      CastSpell(_Q,)
+		      CastSpell(_Q)
           end
         end 
         if LeonaMenu.URFMode.W:Value() and ValidTarget(target, 850) then        
           if Ready(_W) then
-	  	      CastSpell(_W,)
+	  	      CastSpell(_W)
           end
         end
         if LeonaMenu.URFMode.E:Value() and ValidTarget(target, 850) then        
